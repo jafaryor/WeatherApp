@@ -13,6 +13,10 @@
 		12EB55E11E786EE000E1C622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12EB55E01E786EE000E1C622 /* Assets.xcassets */; };
 		12EB55E41E786EE000E1C622 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12EB55E21E786EE000E1C622 /* LaunchScreen.storyboard */; };
 		12EB55EF1E786EE100E1C622 /* WeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EB55EE1E786EE100E1C622 /* WeatherAppTests.swift */; };
+		12EB55FA1E7871A800E1C622 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 12EB55F91E7871A800E1C622 /* .gitignore */; };
+		12EB55FC1E7871C400E1C622 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 12EB55FB1E7871C400E1C622 /* README.md */; };
+		12EB55FE1E7871CA00E1C622 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 12EB55FD1E7871CA00E1C622 /* LICENSE */; };
+		12EB56001E78817500E1C622 /* background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 12EB55FF1E78817500E1C622 /* background.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		12EB55EA1E786EE100E1C622 /* WeatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12EB55EE1E786EE100E1C622 /* WeatherAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppTests.swift; sourceTree = "<group>"; };
 		12EB55F01E786EE100E1C622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12EB55F91E7871A800E1C622 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		12EB55FB1E7871C400E1C622 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		12EB55FD1E7871CA00E1C622 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		12EB55FF1E78817500E1C622 /* background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpeg; path = "../../../../Documents/iOS/Video Lessons/The Complete iOS 10 Developer Course - Build 21 Apps/4 - Advanced iOS Features - Timers, Tables, Permanent Storage & Web Content/Whats The Weather/Whats The Weather/background.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,9 @@
 				12EB55D81E786EE000E1C622 /* WeatherApp */,
 				12EB55ED1E786EE100E1C622 /* WeatherAppTests */,
 				12EB55D71E786EE000E1C622 /* Products */,
+				12EB55F91E7871A800E1C622 /* .gitignore */,
+				12EB55FB1E7871C400E1C622 /* README.md */,
+				12EB55FD1E7871CA00E1C622 /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +91,7 @@
 				12EB55D91E786EE000E1C622 /* AppDelegate.swift */,
 				12EB55DB1E786EE000E1C622 /* ViewController.swift */,
 				12EB55DD1E786EE000E1C622 /* Main.storyboard */,
+				12EB55FF1E78817500E1C622 /* background.jpeg */,
 				12EB55E01E786EE000E1C622 /* Assets.xcassets */,
 				12EB55E21E786EE000E1C622 /* LaunchScreen.storyboard */,
 				12EB55E51E786EE000E1C622 /* Info.plist */,
@@ -181,9 +193,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12EB55FA1E7871A800E1C622 /* .gitignore in Resources */,
+				12EB56001E78817500E1C622 /* background.jpeg in Resources */,
 				12EB55E41E786EE000E1C622 /* LaunchScreen.storyboard in Resources */,
 				12EB55E11E786EE000E1C622 /* Assets.xcassets in Resources */,
 				12EB55DF1E786EE000E1C622 /* Main.storyboard in Resources */,
+				12EB55FE1E7871CA00E1C622 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12EB55FC1E7871C400E1C622 /* README.md in Sources */,
 				12EB55DC1E786EE000E1C622 /* ViewController.swift in Sources */,
 				12EB55DA1E786EE000E1C622 /* AppDelegate.swift in Sources */,
 			);
@@ -412,6 +428,7 @@
 				12EB55F51E786EE100E1C622 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12EB55F61E786EE100E1C622 /* Build configuration list for PBXNativeTarget "WeatherAppTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +437,7 @@
 				12EB55F81E786EE100E1C622 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
